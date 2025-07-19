@@ -4,17 +4,11 @@
 	xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<!-- bean definitions here -->
-
-	<!-- <bean name="emp" class="com.spring.model.Employee"> <constructor-arg 
-		name="id" value="111" /> <constructor-arg name="name" value="Akshit" /> <constructor-arg 
-		name="gender" value="Male" /> </bean> -->
 
 	<bean name="add" class="com.spring.model.Address">
 		<property name="city" value="GZB" />
 		<property name="state" value="UP" />
 	</bean>
-
 
 	<bean name="emp" class="com.spring.model.Employee">
 		<property name="id" value="111" />
