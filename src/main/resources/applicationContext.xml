@@ -21,6 +21,38 @@
 		<property name="name" value="Akshit" />
 		<property name="gender" value="Male" />
 		<property name="address" ref="add" />
+		<property name="list">
+			<list>
+				<value>100</value>
+				<value>200</value>
+				<value>300</value>
+				<value>400</value>
+				<value>400</value>
+				<value>100</value>
+				<value>100</value>
+			</list>
+		</property>
+		<property name="set">
+			<set>
+				<value>10</value>
+				<value>20</value>
+				<value>30</value>
+				<value>10</value>
+				<value>50</value>
+				<value>10</value>
+			</set>
+		</property>
+
+		<property name="map">
+			<map>
+				<entry key="1" value="ONE" />
+				<entry key="2" value="TWO" />
+				<entry key="3" value="THREE" />
+				<entry key="1" value="one" />
+			</map>
+		</property>
+
+
 	</bean>
 </beans>
 
