@@ -3,22 +3,16 @@ package com.spring.client;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.spring.model.Address;
 import com.spring.model.Employee;
 
 public class Main {
 
 	public static void main(String[] args) {
 		ApplicationContext ioc = new ClassPathXmlApplicationContext("applicationContext.xml");
-//		Employee e = (Employee) ioc.getBean("emp");
-//		System.out.println(e);
-
 		Employee e = ioc.getBean("emp", Employee.class);
 
 		System.out.println(e);
 
-		Address address = ioc.getBean("add", Address.class);
-		System.out.println(address);
 	}
 
 }
