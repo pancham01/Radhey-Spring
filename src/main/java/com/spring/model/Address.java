@@ -1,8 +1,11 @@
 package com.spring.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Address {
 	
-	private String city,state;
+	private String city="Gzb",state="UP";
 	public Address() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -30,10 +33,10 @@ public class Address {
 		this.state = state;
 	}
 
-	@Override
-	public String toString() {
-		return "Address [city=" + city + ", state=" + state + "]";
-	}
+//	@Override
+//	public String toString() {
+//		return "Address [city=" + city + ", state=" + state + "]";
+//	}
 	
 	
 
